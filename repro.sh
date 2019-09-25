@@ -4,7 +4,7 @@ set -ex
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 pkgs=(ffmpeg fontconfig harfbuzz zlib)
-ns="_/_"
+ns=""
 export CONAN_USER_HOME=$DIR/conan_cache
 
 rm -rf $CONAN_USER_HOME

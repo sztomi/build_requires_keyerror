@@ -58,7 +58,7 @@ description = "Conan C/C++ package manager"
 name = "conan"
 optional = false
 python-versions = "*"
-version = "1.18.2"
+version = "1.18.5"
 
 [package.dependencies]
 Jinja2 = ">=2.3,<3"
@@ -80,6 +80,7 @@ python-dateutil = ">=2.7.0,<3"
 requests = ">=2.8.1,<3.0.0"
 six = ">=1.10.0"
 tqdm = ">=4.28.1,<5"
+urllib3 = "<1.25.4"
 
 [[package]]
 category = "main"
@@ -329,7 +330,7 @@ python-versions = "*"
 version = "1.11.2"
 
 [metadata]
-content-hash = "6a9163d3e4b46df1926aa10b2eb5ced1978c2e51b6f43756e136f4c2b290999e"
+content-hash = "c33beb74753e9100f284f84d5c63daa3083dca5dd5211bc3b32b02e82d9f95d0"
 python-versions = "^3.6"
 
 [metadata.hashes]
@@ -339,7 +340,7 @@ bottle = ["1896a33b2c7c5be07491e6789e341f2e9593a0ff024cc0374615118587c81647", "e
 certifi = ["046832c04d4e752f37383b628bc601a7ea7211496b4638f6514d0e5b9acc4939", "945e3ba63a0b9f577b1395204e13c3a231f9bc0223888be653286534e5873695"]
 chardet = ["84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae", "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"]
 colorama = ["05eed71e2e327246ad6b38c540c4a3117230b19679b875190486ddd2d721422d", "f8ac84de7840f5b9c4e3347b3c1eaa50f7e49c2b07596221daec5edaabbd7c48"]
-conan = ["be59d523e841a8e1e5f45213c18153223e26fa22d5d80583b0940020dc986139"]
+conan = ["b645d6d0a4f81a7fa712495796cf5ad20ce8a280a89a2ad900aac593131cbd1d"]
 deprecation = ["c0392f676a6146f0238db5744d73e786a43510d54033f80994ef2f4c9df192ed", "dc9b4f252b7aca8165ce2764a71da92a653b5ffbf7a389461d7a640f6536ecb2"]
 distro = ["722054925f339a39ca411a8c7079f390a41d42c422697bedf228f1a9c46ac1ee", "f0e43d555fd45eda71eb474c2927c17b75e0673bf13f90f70bdce5b1a90cf0c5"]
 fasteners = ["007e4d2b2d4a10093f67e932e5166722d2eab83b77724156e92ad013c6226574", "3a176da6b70df9bb88498e1a18a9e4a8579ed5b9141207762368a1017bf8f5ef"]
